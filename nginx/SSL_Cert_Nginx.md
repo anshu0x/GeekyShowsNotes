@@ -27,3 +27,9 @@ sudo systemctl status certbot.timer
 ```sh
 sudo certbot renew --dry-run
 ```
+
+Incase error related to python whule getting certificate run the below command 
+
+pip3 install requests==2.26.0 requests-toolbelt==0.9.0
+pip3 install requests==2.26.0 requests-toolbelt==0.9.0
+sudo certbot --nginx -d anshusharma.me -d www.anshusharma.me
